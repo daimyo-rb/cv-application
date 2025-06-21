@@ -1,4 +1,5 @@
 import '../styles/PersonalInfoCard.css'
+
 export function PersonalInfoCard({
   name = "First Last",
   email = "email",
