@@ -3,7 +3,7 @@ import '../styles/EditableBulletList.css'
 
 export function EditableBulletList({
   bulletList,
-  isEditing=true,
+  isEditing=false,
 }) {
   return (
     <div>

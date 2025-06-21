@@ -1,3 +1,4 @@
+import { SectionCard } from './SectionCard';
 import '../styles/PersonalInfoCard.css'
 
 export function PersonalInfoCard({
@@ -5,14 +6,22 @@ export function PersonalInfoCard({
   email = "email",
   phone = "phone",
 }) {
-  return (
+  const entryList = [
     <div className="personalInfoCard">
-      <h2>{name}</h2>
       <div className="personalContactInfo">
         <p>{email}</p>
         <p> | </p>
         <p>{phone}</p>
       </div>
-    </div>
+    </div>,
+  ]
+  return (
+    <SectionCard
+      sectionTitle={name}
+      sectionHeaderAlign='center'
+      entryList={entryList}
+      canAddEntries={false}
+      canRemoveEntries={false}
+    />
   );
 }

@@ -7,7 +7,7 @@ import { ExperienceCard } from './components/ExperienceCard'
 function App() {
   return (
     <>
-      <h1>CV Builder</h1>
+      <h1 className='pageTitle'>CV Builder</h1>
       <PersonalInfoCard/>
       <EducationCard/>
       <ExperienceCard/>

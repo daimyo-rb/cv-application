@@ -1,16 +1,19 @@
+import { SectionCard } from './SectionCard.jsx'
+import { ExperienceEntry } from './ExperienceEntry.jsx'
 import '../styles/ExperienceCard.css'
 
 export function ExperienceCard() {
-  return <div className='experienceCard'>
-    <h2>Experience</h2>
-    <div>
-      <div className='splitLine'>
-        <p>Name</p>
-        <p>Date</p>
-      </div>
-      <ul>
-        <li>First bullet</li>
-      </ul>
-    </div>
-  </div>
+  const entries = [
+    <ExperienceEntry
+      name='bob'
+      date='today'
+      bulletList={[1,2]}
+    />,
+  ]
+  return (
+    <SectionCard
+      sectionTitle='Experience'
+      entryList={entries}
+    />
+  )
 }
