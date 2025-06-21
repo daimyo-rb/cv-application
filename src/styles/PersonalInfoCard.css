@@ -1,0 +1,7 @@
+.personalInfoCard {
+  background-color: rgb(230, 204, 255);
+}
+.personalContactInfo {
+  display: flex;
+  justify-content: center;
+}
