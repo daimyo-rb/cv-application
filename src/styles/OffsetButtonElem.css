@@ -1,0 +1,16 @@
+.wrapper {
+  position: relative;
+}
+.offsetButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.offsetButtons.right {
+  left: 100%;
+  margin-left: 10px;
+}
+.offsetButtons.left {
+  right: 100%;
+  margin-right: 5px;
+}
