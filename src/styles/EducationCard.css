@@ -1,0 +1,8 @@
+.educationCard {
+  background: rgb(177, 250, 177);
+}
+
+.splitLineContainer {
+  display: flex;
+  justify-content: space-between;
+}
