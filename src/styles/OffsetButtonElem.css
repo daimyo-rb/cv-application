@@ -3,8 +3,15 @@
 }
 .offsetButtons {
   position: absolute;
+  
+}
+.offsetButtons.verticalCenter {
   top: 50%;
   transform: translateY(-50%);
+}
+.offsetButtons.top {
+  top: 0%;
+  margin-top: 5px;
 }
 .offsetButtons.right {
   left: 100%;
