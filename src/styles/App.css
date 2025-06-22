@@ -6,3 +6,65 @@
 .pageTitle {
   padding: 10px 20px;
 }
+.sectionCard {
+  background-color: rgb(188, 217, 255);
+  padding: 10px 20px;
+  border: 2px solid rgb(230, 230, 230);
+}
+.sectionHeaderWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sectionHeaderWrapper.left {
+  justify-content: left;
+}
+.sectionHeaderWrapper.center {
+  justify-content: center;
+}
+.sectionHeader {
+  position: relative;
+}
+.editHeaderButtons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 100%;
+  margin-left: 10px;
+}
+.saveDiscardEditButtons {
+  display: flex;
+  gap: 7px;
+}
+.editCardButton {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(240, 253, 56);
+}
+.saveChangesButton {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(11, 150, 18);
+}
+.discardChangesButton {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(255, 81, 81);
+}
+.addButton {
+  height: 10px;
+  width: 10px;
+  background-color: yellow;
+}
+.deleteEntry {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+}
+.experienceEntry {
+  border: 2px solid purple; 
+}
+.splitLine {
+  display: flex;
+  justify-content: space-between; 
+}
